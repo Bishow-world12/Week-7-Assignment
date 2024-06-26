@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Our Website</title>
+    <style>
+        body {
+            margin: 40px;
+        }
+        .buttons {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Search Our Website</h1>
+    </div>
+    <hr>
+    <div class="main">
+        <h3>Where do you want to search?</h3>
+            <label><input type="radio" name="search" value="wholeSite"> Whole site</label><br>
+            <label><input type="radio" name="search" value="businessPartners"> Business Partners Section</label><br>
+            <label><input type="radio" name="search" value="corporateCommunications"> Corporate Communications Section</label><br>
+            <label><input type="radio" name="search" value="lotusEducation"> Lotus Education Section</label><br>
+       
+
+        <h3>Enter a word or two that we can search on:</h3>
+        <input type="text" name="searchQuery" maxlength="50" style="width: 100%; max-width: 300px;">
+    </div>
+
+    <div class="buttons">
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+    </div>
+</body>
+</html>
